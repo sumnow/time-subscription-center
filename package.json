@@ -1,0 +1,21 @@
+{
+    "name": "time-subscription-center",
+    "version": "0.0.1",
+    "description": "the center to subscript or unsubscript timer and manage",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "author": "mydia@foxmail.com",
+    "repository": {},
+    "scripts": {
+        "tsc": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublish": "npm run tsc"
+    },
+    "devDependencies": {
+        "typescript": "^3.9.7"
+    },
+    "files": [
+        "dist/**/*"
+    ]
+}
